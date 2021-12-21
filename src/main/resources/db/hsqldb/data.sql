@@ -62,3 +62,11 @@ INSERT INTO visits(id,pet_id,visit_date,description) VALUES (2, 8, '2013-01-02',
 INSERT INTO visits(id,pet_id,visit_date,description) VALUES (3, 8, '2013-01-03', 'neutered');
 INSERT INTO visits(id,pet_id,visit_date,description) VALUES (4, 7, '2013-01-04', 'spayed');
 
+INSERT INTO product_type(name) VALUES ('Accessories');
+INSERT INTO product_type(name) VALUES ('Food');
+
+
+INSERT INTO products(name, price,producttype) VALUES ('Wonderful dog collar',17.25,1);
+INSERT INTO products(name, price,producttype) VALUES ('Super Kitty Cookies',50.0,2);
+
+
